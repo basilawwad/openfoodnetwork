@@ -28,7 +28,7 @@ export default class extends Controller {
   }
 
   activateDefaultPanel() {
-    this._activateByHash(`#${this.defaultTarget.id}`);
+    this._activateByHash(`#shop_panel`);
   }
 
   _activateByHash(hash) {
